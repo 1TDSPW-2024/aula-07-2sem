@@ -1,4 +1,4 @@
-
+import styles from "../../App.module.css";
 
 export default function Produtos(){
 
@@ -7,7 +7,7 @@ export default function Produtos(){
 
     return(
       <div>
-        <h1>Olá, mundo sou o Produtos!</h1>
+        <h1 className={styles.h1}>Olá, mundo sou o Produtos!</h1>
       </div>
     );
   }
